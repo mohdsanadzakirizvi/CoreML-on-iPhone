@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		168809EF1F75253300E7524B /* SpamMessageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 168809EE1F75252600E7524B /* SpamMessageClassifier.mlmodel */; };
+		16878F741F7556F000E1DB65 /* SpamMessageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 16878F721F7556F000E1DB65 /* SpamMessageClassifier.mlmodel */; };
+		16878F751F7556F000E1DB65 /* SMSSpamCollection.txt in Resources */ = {isa = PBXBuildFile; fileRef = 16878F731F7556F000E1DB65 /* SMSSpamCollection.txt */; };
 		16C293CE1F72EE9100F162CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C293CD1F72EE9100F162CD /* AppDelegate.swift */; };
 		16C293D01F72EE9100F162CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C293CF1F72EE9100F162CD /* ViewController.swift */; };
 		16C293D31F72EE9100F162CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C293D11F72EE9100F162CD /* Main.storyboard */; };
@@ -35,9 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16878F721F7556F000E1DB65 /* SpamMessageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SpamMessageClassifier.mlmodel; sourceTree = "<group>"; };
+		16878F731F7556F000E1DB65 /* SMSSpamCollection.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SMSSpamCollection.txt; sourceTree = "<group>"; };
 		168809EA1F74B9B900E7524B /* wordlist.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = wordlist.txt; sourceTree = "<group>"; };
-		168809EB1F74BFD200E7524B /* SMSSpamCollection.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = SMSSpamCollection.txt; path = "../../CoreML-on-iPhone/SMSSpamCollection.txt"; sourceTree = "<group>"; };
-		168809EE1F75252600E7524B /* SpamMessageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SpamMessageClassifier.mlmodel; path = "../../CoreML-on-iPhone/SpamMessageClassifier.mlmodel"; sourceTree = "<group>"; };
 		16C293CA1F72EE9100F162CD /* coreml test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coreml test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16C293CD1F72EE9100F162CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16C293CF1F72EE9100F162CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,11 +103,11 @@
 		16C293CC1F72EE9100F162CD /* coreml test */ = {
 			isa = PBXGroup;
 			children = (
+				16878F731F7556F000E1DB65 /* SMSSpamCollection.txt */,
+				16878F721F7556F000E1DB65 /* SpamMessageClassifier.mlmodel */,
 				16C293CD1F72EE9100F162CD /* AppDelegate.swift */,
 				16C293CF1F72EE9100F162CD /* ViewController.swift */,
 				168809EA1F74B9B900E7524B /* wordlist.txt */,
-				168809EE1F75252600E7524B /* SpamMessageClassifier.mlmodel */,
-				168809EB1F74BFD200E7524B /* SMSSpamCollection.txt */,
 				16C293D11F72EE9100F162CD /* Main.storyboard */,
 				16DE23701F742BD500B56D3F /* av_logo.png */,
 				16C293D41F72EE9100F162CD /* Assets.xcassets */,
@@ -244,6 +245,7 @@
 				16C293D81F72EE9100F162CD /* LaunchScreen.storyboard in Resources */,
 				16C293D51F72EE9100F162CD /* Assets.xcassets in Resources */,
 				16C293D31F72EE9100F162CD /* Main.storyboard in Resources */,
+				16878F751F7556F000E1DB65 /* SMSSpamCollection.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,8 +270,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				168809EF1F75253300E7524B /* SpamMessageClassifier.mlmodel in Sources */,
 				16C293D01F72EE9100F162CD /* ViewController.swift in Sources */,
+				16878F741F7556F000E1DB65 /* SpamMessageClassifier.mlmodel in Sources */,
 				16C293CE1F72EE9100F162CD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
