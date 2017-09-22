@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		168809EF1F75253300E7524B /* SpamMessageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 168809EE1F75252600E7524B /* SpamMessageClassifier.mlmodel */; };
 		16C293CE1F72EE9100F162CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C293CD1F72EE9100F162CD /* AppDelegate.swift */; };
 		16C293D01F72EE9100F162CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C293CF1F72EE9100F162CD /* ViewController.swift */; };
 		16C293D31F72EE9100F162CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C293D11F72EE9100F162CD /* Main.storyboard */; };
@@ -34,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		168809EA1F74B9B900E7524B /* wordlist.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = wordlist.txt; sourceTree = "<group>"; };
+		168809EB1F74BFD200E7524B /* SMSSpamCollection.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = SMSSpamCollection.txt; path = "../../CoreML-on-iPhone/SMSSpamCollection.txt"; sourceTree = "<group>"; };
+		168809EE1F75252600E7524B /* SpamMessageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SpamMessageClassifier.mlmodel; path = "../../CoreML-on-iPhone/SpamMessageClassifier.mlmodel"; sourceTree = "<group>"; };
 		16C293CA1F72EE9100F162CD /* coreml test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coreml test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16C293CD1F72EE9100F162CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16C293CF1F72EE9100F162CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,7 @@
 		16C293E91F72EE9100F162CD /* coreml testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "coreml testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16C293ED1F72EE9100F162CD /* coreml_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreml_testUITests.swift; sourceTree = "<group>"; };
 		16C293EF1F72EE9100F162CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16DE23701F742BD500B56D3F /* av_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = av_logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +104,11 @@
 			children = (
 				16C293CD1F72EE9100F162CD /* AppDelegate.swift */,
 				16C293CF1F72EE9100F162CD /* ViewController.swift */,
+				168809EA1F74B9B900E7524B /* wordlist.txt */,
+				168809EE1F75252600E7524B /* SpamMessageClassifier.mlmodel */,
+				168809EB1F74BFD200E7524B /* SMSSpamCollection.txt */,
 				16C293D11F72EE9100F162CD /* Main.storyboard */,
+				16DE23701F742BD500B56D3F /* av_logo.png */,
 				16C293D41F72EE9100F162CD /* Assets.xcassets */,
 				16C293D61F72EE9100F162CD /* LaunchScreen.storyboard */,
 				16C293D91F72EE9100F162CD /* Info.plist */,
@@ -259,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				168809EF1F75253300E7524B /* SpamMessageClassifier.mlmodel in Sources */,
 				16C293D01F72EE9100F162CD /* ViewController.swift in Sources */,
 				16C293CE1F72EE9100F162CD /* AppDelegate.swift in Sources */,
 			);
