@@ -17,16 +17,16 @@ class ViewController: UIViewController {
     
     //MARK: Functionality code
     func tfidf(sms: String) -> MLMultiArray{
-        //set path for files
-        let wordsFile = "/Users/sanad/development/coreml test/coreml test/wordlist.txt"
-        let smsFile = "/Users/sanad/development/coreml test/coreml test/SMSSpamCollection.txt"
+        //get path for files
+        let wordsFile = Bundle.main.path(forResource: "wordlist", ofType: "txt")
+        let smsFile = Bundle.main.path(forResource: "SMSSpamCollection", ofType: "txt")
         do {
             //read words file
-            let wordsFileText = try String(contentsOfFile: wordsFile, encoding: String.Encoding.utf8)
+            let wordsFileText = try String(contentsOfFile: wordsFile!, encoding: String.Encoding.utf8)
             var wordsData = wordsFileText.components(separatedBy: .newlines)
             wordsData.removeLast() // Trailing newline.
             //read spam collection file
-            let smsFileText = try String(contentsOfFile: smsFile, encoding: String.Encoding.utf8)
+            let smsFileText = try String(contentsOfFile: smsFile!, encoding: String.Encoding.utf8)
             var smsData = smsFileText.components(separatedBy: .newlines)
             smsData.removeLast() // Trailing newline.
             let wordsInMessage = sms.split(separator: " ")
