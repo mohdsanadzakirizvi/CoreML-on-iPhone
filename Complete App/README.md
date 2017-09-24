@@ -1,15 +1,10 @@
-# CoreML-on-iPhone
+# Complete App
 
-This repository contains all of the code used in the blog post, [A guide to Machine Learning on iPhone : Intro to Apple's CoreML]()
+This folder contains a fully functional app for spam message classification that is build in the article.
 
-License
---------
+### Project Structure
 
-The code in this repository is under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) license.
-
-Credits to: 
----------
-
- - [Siraj Raval](https://github.com/llSourcell?tab=repositories) for making a really interesting tutorial for the same.
- 
- - [Gokul](https://github.com/gkswamy98) for TF-IDF logic in swift.
+ - All important files are in the folder `coreml test`.
+ - The file `coreml test.xcodeproj` will open project in xcode from where you can run the app in simulator.
+ - The file `CoreML Conversion.ipynb` contains the approach to building the model in python.
+ - The file `coreml test/SpamMessageClassifier.mlmodel` is the pre-trained ml model.
