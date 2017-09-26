@@ -1,6 +1,6 @@
 CoreML-on-iPhone
 -----------------
-This repository contains all of the code used in the blog post, [A guide to Machine Learning on iPhone : Intro to Apple's CoreML]()
+This repository contains all of the code used in the blog post, [A guide to Machine Learning on iPhone : Intro to Apple's CoreML](https://www.analyticsvidhya.com/blog/2017/09/build-machine-learning-iphone-apple-coreml/)
 
 ### Project structure:
  - Complete App - A complete working app for sms spam classification based on the model built in the article.
